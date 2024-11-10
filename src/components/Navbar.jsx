@@ -28,7 +28,13 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <div className="bg-blue-50 rounded-md px-5 py-7 flex justify-between items-center">
+    <div
+      className={
+        routeName == "/"
+          ? "bg-blue-50 rounded-md px-5 py-7 flex justify-between items-center"
+          : "bg-white rounded-md px-5 py-7 flex justify-between items-center"
+      }
+    >
       <Link href="/" className="md:text-3xl text-2xl">
         <span className="font-extrabold">HAPPY</span>
         <span className="font-thin">DENTAL</span>
