@@ -111,7 +111,7 @@ const Navbar = () => {
       <ul
         className={
           isOpen
-            ? "z-10 fixed left-0 top-0 w-full overflow-hidden h-full bg-slate-950 text-slate-50 ease-in-out duration-500"
+            ? "z-10 fixed left-0 top-0 w-full overflow-hidden h-full bg-sky-950 text-slate-50 ease-in-out duration-500"
             : "h-full ease-in-out duration-500 fixed left-[-100%]"
         }
       >
