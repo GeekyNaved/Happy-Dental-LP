@@ -4,7 +4,7 @@ import {FaFacebookF, FaInstagram, FaXTwitter} from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="md:my-10 my-5">
+    <div className="md:my-10 my-5 px-5">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <Link href="/" className="md:text-3xl text-2xl">
           <span className="font-extrabold">HAPPY</span>
