@@ -97,7 +97,7 @@ const Navbar = () => {
       </ul>
       <Link
         href="/contact"
-        className="md:block hidden bg-blue-500 md:text-xl text-white px-5 py-2 rounded-md"
+        className="md:block hidden bg-blue-500 hover:bg-blue-400 duration-200 text-white px-5 py-2 rounded-md"
       >
         Book Now
       </Link>

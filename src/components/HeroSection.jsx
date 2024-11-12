@@ -16,7 +16,7 @@ const HeroSection = () => {
             anything and book yourself.
           </p>
           <Link
-            className="text-white bg-blue-500 text-center hover:bg-blue-400 w-[15rem] rounded-md font-medium my-6 mx-auto md:mx-0 py-3"
+            className="text-white bg-blue-500 text-center hover:bg-blue-400 duration-200 w-[15rem] rounded-md font-medium my-6 mx-auto md:mx-0 py-3"
             href="/contact"
           >
             Book an appointment
