@@ -12,10 +12,10 @@ const CustomersSection = () => {
       <h1 className="text-center md:text-5xl sm:text-4xl text-3xl font-bold">
         Our Happy Clients
       </h1>
-      <div className="text-center text-slate-600 py-4">
-        <p>We use only the best quality materials on the market in order to</p>
-        <p>provide the best products to our patients.</p>
-      </div>
+      <p className="text-center text-slate-600 max-w-2xl mx-auto py-4">
+        We use only the best quality materials on the market in order to provide
+        the best products to our patients.
+      </p>
       <Swiper
         breakpoints={{
           340: {

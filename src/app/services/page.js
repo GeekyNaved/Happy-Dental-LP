@@ -10,12 +10,10 @@ const Services = () => {
           <h1 className="md:text-5xl sm:text-4xl text-3xl font-bold">
             Services
           </h1>
-          <header className="text-slate-600 py-4">
+          <p className="text-slate-600 py-4 max-w-2xl mx-auto">
             We use only the best quality materials on the market in order to
-            <p>
-              provide the best products to our patients.
-            </p>
-          </header>
+            provide the best products to our patients.
+          </p>
         </section>
         <section className="grid md:grid-cols-3 gap-2 md:gap-8 mt-8">
           <ServicesCard
