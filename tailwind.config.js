@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      textUnderlineOffset: {
+        12: '12px',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

@@ -7,7 +7,7 @@ const Services = () => {
     <>
       <div className="py-10 md:py-20 px-4 bg-blue-50">
         <section className="text-center">
-          <h1 className="md:text-5xl sm:text-4xl text-3xl font-bold">
+          <h1 className="md:text-5xl sm:text-4xl text-3xl font-bold underline underline-offset-12 decoration-4 decoration-blue-500">
             Services
           </h1>
           <p className="text-slate-600 py-4 max-w-2xl mx-auto">

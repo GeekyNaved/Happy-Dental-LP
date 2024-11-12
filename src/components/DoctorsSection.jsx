@@ -4,7 +4,7 @@ import DrCard from "./DrCard";
 const DoctorsSection = () => {
   return (
     <section className="py-10 px-4">
-      <h1 className="text-center md:text-5xl sm:text-4xl text-3xl font-bold">
+      <h1 className="text-center md:text-5xl sm:text-4xl text-3xl font-bold underline underline-offset-12 decoration-4 decoration-blue-500">
         Meet our specialists
       </h1>
       <p className="text-center text-slate-600 max-w-2xl mx-auto py-4">

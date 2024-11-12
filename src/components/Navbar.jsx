@@ -44,8 +44,8 @@ const Navbar = () => {
         <li
           className={
             routeName == "/"
-              ? "md:text-xl p-3 underline underline-offset-4 decoration-2 decoration-customBlue"
-              : "md:text-xl p-3 hover:underline underline-offset-4 decoration-2 decoration-customBlue"
+              ? "md:text-xl p-3 underline underline-offset-4 decoration-2 decoration-sky-950"
+              : "md:text-xl p-3 hover:underline underline-offset-4 decoration-2 decoration-sky-950"
           }
         >
           <Link className="cursor-pointer hover:underline font-bold" href="/">
