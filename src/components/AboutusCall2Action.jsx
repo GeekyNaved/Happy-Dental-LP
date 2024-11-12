@@ -6,7 +6,7 @@ const AboutusCall2Action = () => {
     <div className="bg-sky-950 py-10 px-4 lg:px-16 rounded-md">
       <div className="grid md:grid-cols-3 md:gap-4">
         <div className="flex flex-col justify-center md:col-span-2">
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-slate-50 max-w-lg">
+          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-slate-50 max-w-lg md:leading-tight leading-normal">
             Dental Website That’s gonna shake the game rules up.
           </h1>
           <p className="md:mt-2 text-slate-300 max-w-lg">
