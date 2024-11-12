@@ -8,7 +8,7 @@ import {Pagination} from "swiper/modules";
 
 const CustomersSection = () => {
   return (
-    <div className="">
+    <div className="bg-blue-50 py-10 px-4">
       <h1 className="text-center md:text-5xl sm:text-4xl text-3xl font-bold">
         Our Happy Clients
       </h1>
