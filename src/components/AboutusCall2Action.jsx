@@ -6,14 +6,12 @@ const AboutusCall2Action = () => {
     <div className="bg-sky-950 py-10 px-4 lg:px-16 rounded-md">
       <div className="grid md:grid-cols-3 md:gap-4">
         <div className="flex flex-col justify-center md:col-span-2">
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-slate-50">
-            Dental Website That’s gonna
-            <br />
-            shake the game rules up.
+          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-slate-50 max-w-lg">
+            Dental Website That’s gonna shake the game rules up.
           </h1>
-          <p className="md:mt-2 text-slate-300">
-            We use only the best quality materials on the market in order
-            <br /> to provide the best products to our patients.
+          <p className="md:mt-2 text-slate-300 max-w-lg">
+            We use only the best quality materials on the market in order to
+            provide the best products to our patients.
           </p>
           <Link
             className="text-white bg-blue-500 text-center hover:bg-blue-400 w-[15rem] rounded-md font-medium my-6 mx-auto md:mx-0 py-3"

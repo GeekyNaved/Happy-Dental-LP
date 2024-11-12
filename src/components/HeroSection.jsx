@@ -7,13 +7,10 @@ const HeroSection = () => {
     <div className="py-10 md:py-20 px-4">
       <div className="grid md:grid-cols-2 md:gap-4">
         <section className="flex flex-col justify-center">
-          <p className="md:text-5xl sm:text-4xl text-3xl font-bold">
-            Get Ready For Your Best
+          <p className="md:text-5xl sm:text-4xl text-3xl font-bold max-w-lg md:leading-tight leading-normal">
+            Get Ready For Your Best Ever Dental Experience!
           </p>
-          <h1 className="md:text-5xl sm:text-4xl text-3xl font-bold py-2">
-            Ever Dental Experience!
-          </h1>
-          <p className="text-slate-600 py-4">
+          <p className="text-slate-600 py-4 max-w-lg">
             We use only the best quality materials on the market in order to
             provide the best products to our patients, So don’t worry about
             anything and book yourself.
